@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /usr/lib/gnome-night-shift/shared-variabes.sh
+source /usr/lib/gnome-night-shift/shared-variables.sh
 
 echo '::AUTO-UPDATE-GNOME-THEME::'
 
@@ -10,6 +10,7 @@ auto_update_gnome_theme() {
   DAY_NIGHT=$(cat $DAY_NIGHT_MODE_PATH)
 
   if [ -z $DAY_NIGHT ]; then
+    echo "missing day_night; Check provided path: $DAY_NIGHT_MODE_PATH"
     exit 33
   fi
 
