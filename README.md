@@ -1,4 +1,4 @@
-GNOME Gnight (Lite)
+GNOME Mode Shift
 
 Small utility to automatically change the mode (dark/light) based on your
 location and the astrological events (sunrise/sunset)

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /usr/lib/gnome-night-shift/shared-variables.sh
+source /usr/lib/gnome-mode-shift/shared-variables.sh
 
 if ! command -v redshift &> /dev/null; then
   echo "redshift is not found. Did you check if it's installed?";

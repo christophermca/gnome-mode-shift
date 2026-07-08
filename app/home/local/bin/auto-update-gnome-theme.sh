@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /usr/lib/gnome-night-shift/shared-variables.sh
+source /usr/lib/gnome-mode-shift/shared-variables.sh
 
 echo '::AUTO-UPDATE-GNOME-THEME::'
 

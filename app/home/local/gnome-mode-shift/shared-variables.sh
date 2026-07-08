@@ -13,5 +13,5 @@ RDSHFT_DAY='daytime'
 
 NIGHT_MODE='night'
 DAY_MODE='day'
-DAY_NIGHT_MODE_PATH='/var/lib/gnome-night-shift/is-day-or-night'
+DAY_NIGHT_MODE_PATH='/var/lib/gnome-mode-shift/is-day-or-night'
 
