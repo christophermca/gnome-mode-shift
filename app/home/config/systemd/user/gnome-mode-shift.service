@@ -1,7 +1,7 @@
 [Unit]
 Description=Sets gsettings prefer-<light|dark>
-After=redshift.service
-Requires=redshift.service
+Wants=network-online.target display-manager.service
+After=network.target network-online.target graphical-session.target
 
 [Service]
 StateDirectory=%p
