@@ -13,7 +13,7 @@ fi
 #   exit 33
 # fi
 
-ping -w 1 -c 1 8.8.8.8 > /dev/null 2>&1 || echo 'offline'; exit 33;
+ping -w 1 -c 1 8.8.8.8 # > /dev/null 2>&1 || echo 'offline'; exit 33;
 
 lookup_day_or_night=$(redshift -vp | grep -oP '(?<=Period: )\w+$|(?<=Period: )\w+(?=\))$' | tr [A-Z] [a-z]) # tr API tr from, to
 
