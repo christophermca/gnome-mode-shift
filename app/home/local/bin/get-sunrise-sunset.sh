@@ -8,17 +8,12 @@ if ! command -v redshift &> /dev/null; then
   exit 33
 fi
 
-if ! command -v netcap &> /dev/null; then
-  echo 'missing dependency netcap (nc)'
-  exit 33
-fi
+# if ! command -v netcap &> /dev/null; then
+#   echo 'missing dependency netcap (nc)'
+#   exit 33
+# fi
 
-if nc -zw1 google.com 443; then
-  echo "we have connectivity"
-else
-  echo "we do not have connection"
-  exit 33
-fi
+ping -w 1 -c 1 8.8.8.8 > /dev/null 2>&1 || echo 'offline'; exit 33;
 
 lookup_day_or_night=$(redshift -vp | grep -oP '(?<=Period: )\w+$|(?<=Period: )\w+(?=\))$' | tr [A-Z] [a-z]) # tr API tr from, to
 
