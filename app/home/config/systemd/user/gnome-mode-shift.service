@@ -1,6 +1,5 @@
 [Unit]
 Description=Sets gsettings prefer-<light|dark>
-OnFailure=stop-mode-shift-timer.service
 Wants=display-manager.service
 After=graphical-session.target
 
