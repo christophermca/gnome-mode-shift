@@ -1,7 +1,7 @@
 [Unit]
 Description=Sets gsettings prefer-<light|dark>
-Wants=network-online.target display-manager.service
-After=network-online.target graphical-session.target
+Wants=display-manager.service
+After=graphical-session.target
 
 [Service]
 StateDirectory=%p
