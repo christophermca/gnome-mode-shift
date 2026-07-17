@@ -32,19 +32,19 @@ The extension does **not** determine your location on its own—it uses the loca
 The latest development version is available from the Arch User Repository (AUR):
 
 ```bash
-yay -S gnome-mode-shift-git
+yay -S gnome-night-shift-git
 ```
 
 or
 
 ```bash
-paru -S gnome-mode-shift-git
+paru -S gnome-night-shift-git
 ```
 
 ## Usage
 
 1. Install and configure **Redshift** with your location.
-2. Install and enable **GNOME Mode Shift** i.e. (`systemctl enable --now gnome-mode-shift.service`)
+2. Install and enable **GNOME Mode Shift** i.e. (`systemctl enable --now gnome-night-shift.service`)
 3. Configure the appearance settings for **Day** mode.
 4. Configure the appearance settings for **Night** mode.
 5. The extension will automatically switch modes based on the current sunrise and sunset times reported by Redshift.
@@ -53,8 +53,8 @@ Once configured, GNOME Mode Shift automatically changes between Day and Night mo
 
 ## Source Code
 
-* GitHub: https://github.com/christophermca/gnome-mode-shift
-* Arch Linux (AUR): https://aur.archlinux.org/packages/gnome-mode-shift-git
+* GitHub: https://github.com/christophermca/gnome-night-shift
+* Arch Linux (AUR): https://aur.archlinux.org/packages/gnome-night-shift-git
 
 ## License
 
@@ -92,13 +92,13 @@ The extension does **not** determine your location on its own—it uses the loca
 The latest development version is available from the Arch User Repository (AUR):
 
 ```bash
-yay -S gnome-mode-shift-git
+yay -S gnome-night-shift-git
 ```
 
 or
 
 ```bash
-paru -S gnome-mode-shift-git
+paru -S gnome-night-shift-git
 ```
 
 ## Usage
@@ -106,7 +106,7 @@ paru -S gnome-mode-shift-git
 1. Install and configure **Redshift** with your location.
 2. Install and enable **GNOME Mode Shift**
 ```sh
-systemctl enable --now gnome-mode-shift.service gnome-mode-shift.timer auto-update-gnome-theme.service auto-update-gnome-theme.path stop-mode-shift-timer.service
+systemctl enable --now gnome-night-shift.service gnome-night-shift.timer auto-update-gnome-theme.service auto-update-gnome-theme.path stop-mode-shift-timer.service
 ```
 3. Configure the appearance settings for **Day** mode.ti
 4. Configure the appearance settings for **Night** mode.
@@ -116,5 +116,5 @@ Once configured, GNOME Mode Shift automatically changes between Day and Night mo
 
 ## Source Code
 
-* GitHub: https://github.com/christophermca/gnome-mode-shift
-* Arch Linux (AUR): https://aur.archlinux.org/packages/gnome-mode-shift-git
+* GitHub: https://github.com/christophermca/gnome-night-shift
+* Arch Linux (AUR): https://aur.archlinux.org/packages/gnome-night-shift-git

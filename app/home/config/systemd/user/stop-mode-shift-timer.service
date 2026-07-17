@@ -1,6 +1,0 @@
-[Unit]
-Description=Stops gnome-mode-shift timer on failure
-
-[Service]
-Type=oneshot
-ExecStart=/usr/bin/systemctl --user stop gnome-mode-shift.timer

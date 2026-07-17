@@ -1,14 +1,14 @@
 [Unit]
-Description=timer gnome-mode-shift
+Description=timer gnome-night-shift
 Wants=network.target
-OnFailure=stop-mode-shift-timer.service
+OnFailure=stop-night-shift-timer.service
 After=network.target
 
 [Timer]
 OnStartupSec=0
 OnCalendar=*-*-* *:*:00
 Persistent=true
-Unit=gnome-mode-shift.service
+Unit=gnome-night-shift.service
 
 [Install]
 WantedBy=timers.target

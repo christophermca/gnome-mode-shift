@@ -1,6 +1,6 @@
 #!/bin/sh
-source /usr/lib/gnome-mode-shift/shared-variables.sh
-source /usr/lib/gnome-mode-shift/bin/test-network-connection.sh
+source /usr/lib/gnome-night-shift/shared-variables.sh
+source /usr/lib/gnome-night-shift/bin/test-network-connection.sh
 
 testNetworkConnection
 

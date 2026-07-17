@@ -1,0 +1,6 @@
+[Unit]
+Description=Stops gnome-night-shift timer on failure
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl --user stop gnome-night-shift.timer

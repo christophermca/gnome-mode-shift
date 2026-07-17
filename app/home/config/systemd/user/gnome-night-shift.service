@@ -9,8 +9,8 @@ StartLimitIntervalSec=60
 [Service]
 Type=oneshot
 StateDirectory=%p
-WorkingDirectory=/usr/lib/gnome-mode-shift
-ExecStart=/usr/lib/gnome-mode-shift/bin/get-sunrise-sunset.sh
+WorkingDirectory=/usr/lib/gnome-night-shift
+ExecStart=/usr/lib/gnome-night-shift/bin/get-sunrise-sunset.sh
 
 Restart=on-failure
 RestartSec=5

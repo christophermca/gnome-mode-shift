@@ -1,5 +1,5 @@
 #!/bin/bash
-TIMER="gnome-mode-shift.timer"
+TIMER="gnome-night-shift.timer"
 INTERFACE="$1"
 ACTION="$2"
 
